@@ -17,8 +17,8 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  static int TIMES = 50;
-  static int SECS = 3;
+  static int TIMES = 100;
+  static int SECS = 15;
 
   Timer? _timer;
   int _totalCount = TIMES; //總數
