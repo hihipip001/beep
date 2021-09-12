@@ -200,7 +200,8 @@ class _HomePageState extends State<HomePage> {
     if (Platform.isAndroid) {
       FlutterBeep.playSysSound(AndroidSoundIDs.TONE_CDMA_ABBR_ALERT);
     } else if (Platform.isIOS) {
-      FlutterBeep.playSysSound(iOSSoundIDs.AudioToneBusy);
+      FlutterBeep.beep();
+      //FlutterBeep.playSysSound(iOSSoundIDs.AudioToneBusy);
     }
   }
 
